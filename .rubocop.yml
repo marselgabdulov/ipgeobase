@@ -12,8 +12,5 @@ Layout/LineLength:
 AllCops:
   TargetRubyVersion: 3.0.0
 
-AllCops:
-  NewCops: disable
-
 Style/ANewCop:
   Enabled: false
