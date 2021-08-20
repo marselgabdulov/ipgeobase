@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   ip.lon # -77.5
   ```
   "
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/marselgabdulov/ipgeobase"
   spec.required_ruby_version = Gem::Requirement.new('>= 3.0.0')
 
   spec.metadata["homepage_uri"] = spec.homepage
