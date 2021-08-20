@@ -38,3 +38,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ipgeobase.
+
+## Workflow
+![main workflow](https://github.com/marselgabdulov/ipgeobase/blob/main/.github/workflows/main.yml)
