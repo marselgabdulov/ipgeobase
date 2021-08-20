@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+meta = Ipgeobase.lookup('9.9.9.9')
+meta.country # United States
+meta.countryCode # US
+meta.city # Berkeley
+meta.lat # 37.8767
+meta.lon # -122.2676
 
 ## Development
 
