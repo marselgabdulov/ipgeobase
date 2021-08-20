@@ -9,7 +9,7 @@ class IpgeobaseTest < Minitest::Test
   end
 
   def setup
-    @ip = '24.48.0.1'
+    @ip = "24.48.0.1"
   end
 
   def test_lookup

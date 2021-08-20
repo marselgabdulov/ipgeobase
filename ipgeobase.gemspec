@@ -3,13 +3,13 @@
 require_relative "lib/ipgeobase/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ipgeobase"
-  spec.version       = Ipgeobase::VERSION
-  spec.authors       = ["Marsel Gabdulov"]
-  spec.email          = ["marsel.gabdulov@gmail.com"]
+  spec.name = "ipgeobase"
+  spec.version = Ipgeobase::VERSION
+  spec.authors = ["Marsel Gabdulov"]
+  spec.email = ["marsel.gabdulov@gmail.com"]
 
-  spec.summary       = "Shows metadata by IP."
-  spec.description   = "Shows metadata by IP.
+  spec.summary = "Shows metadata by IP."
+  spec.description = "Shows metadata by IP.
   ```ruby
   ip_meta = Ipgeobase.lookup('8.8.8.8')
   ip_meta.city # Ashburn
@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   ip.lon # -77.5
   ```
   "
-  spec.homepage      = "https://github.com/marselgabdulov/ipgeobase"
-  spec.required_ruby_version = Gem::Requirement.new('>= 3.0.0')
+  spec.homepage = "https://github.com/marselgabdulov/ipgeobase"
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.0.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/marselgabdulov/ipgeobase"
